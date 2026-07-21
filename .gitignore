@@ -1,1 +1,2 @@
 delay_sem_queue_set_demo_run.log numbered_log_check.log task_api_demo_run.log
+*.log
