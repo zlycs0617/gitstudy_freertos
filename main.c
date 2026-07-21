@@ -54,7 +54,7 @@
 #define LOG_GROUP_ALL         ( LOG_GROUP_1 | LOG_GROUP_2 | LOG_GROUP_3 | LOG_GROUP_4 | LOG_GROUP_5 | LOG_GROUP_6 | LOG_GROUP_7 )
 
 /* 计数信号量演示：最多可以累计多少次按键释放。 */
-#define SEM_DEMO_COUNTING_MAX       5U
+#define SEM_DEMO_COUNTING_MAX       6U
 /* 队列集演示中的队列长度；创建队列集时容量要把这个长度算进去。 */
 #define QUEUE_SET_DEMO_QUEUE_LENGTH 5U
 /* xTaskNotifyWait() 演示用通知位：按 w/W 时设置这个 bit。 */
