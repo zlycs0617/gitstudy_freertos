@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug FreeRTOS study demo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build_mingw/freertos_study.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Hide gdb thread create/exit messages",
+          "text": "set print thread-events off",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "CMake: build debug"
+    }
+  ]
+}

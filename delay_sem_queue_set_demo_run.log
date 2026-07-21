@@ -1,0 +1,67 @@
+FreeRTOS study demo started.
+All Task Created.
+
+[3][supervisor] sensor event observed
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[2][sensor] produced seq=1 temperature=26 humidity=51
+[2][control] consumed seq=1 temperature=26 humidity=51
+[0][menu] keys: 1 stats/param, 2 sensor/control, 3 supervisor, 4 suspend-worker, a all on/off, b binary-sem, c count-sem, q queue-set-msg, h help
+[0][menu] output mask: [1]=on [2]=on [3]=on [4]=on
+[1][param] label=param-demo warn_temp=28 humidity_step=5 period_ticks=7000
+[4][suspend-worker] running loop=1 tick=53
+[1][delay-absolute] loop=1 wait-from=44 period=2000
+[1][task-api-worker] loop=1 self_prio=1 busy=2904972704
+[1][stats] tick=44 queued=0 free_heap=8088
+[1][delay-relative] loop=1 before vTaskDelay tick=70
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[4][suspend-worker] running loop=2 tick=1059
+[1][task-api-worker] loop=2 self_prio=1 busy=1514978112
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[1][delay-relative] loop=1 after  vTaskDelay tick=1574
+[1][delay-relative] loop=2 before vTaskDelay tick=1576
+[3][supervisor] heartbeat event observed
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[1][delay-absolute] loop=1 woke tick=2046 next-base=2044
+[1][delay-absolute] loop=2 wait-from=2044 period=2000
+[4][suspend-worker] running loop=3 tick=2063
+[1][task-api-worker] loop=3 self_prio=1 busy=124983520
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[3][supervisor] sensor event observed
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[2][control] consumed seq=2 temperature=27 humidity=52
+[2][sensor] produced seq=2 temperature=27 humidity=52
+[4][suspend-worker] running loop=4 tick=3068
+[1][task-api-worker] loop=4 self_prio=1 busy=3029956224
+[1][delay-relative] loop=2 after  vTaskDelay tick=3082
+[1][delay-relative] loop=3 before vTaskDelay tick=3085
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[3][supervisor] heartbeat event observed
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[1][delay-absolute] loop=2 woke tick=4046 next-base=4044
+[1][delay-absolute] loop=3 wait-from=4044 period=2000
+[4][suspend-worker] running loop=5 tick=4073
+[1][task-api-worker] loop=5 self_prio=1 busy=1639961632
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[1][delay-relative] loop=3 after  vTaskDelay tick=4589
+[1][delay-relative] loop=4 before vTaskDelay tick=4590
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[1][task-api] current=00007FF6AD7726F8 worker_by_name=00007FF6AD771618 task_count=16 prio:1->3 state=Blocked stack_free=381
+[1][task-api] vTaskGetInfo name=api_worker number=13 current_prio=3 base_prio=3 info_state=Blocked info_stack_free=381 run_time=37
+[1][task-api] uxTaskGetSystemState captured=16 total_run_time=5491 first=api_inspector/Running/prio2
+[1][stats] tick=5069 queued=0 free_heap=11384
+[4][suspend-worker] running loop=6 tick=5078
+[1][task-api-worker] loop=6 self_prio=3 busy=249967040

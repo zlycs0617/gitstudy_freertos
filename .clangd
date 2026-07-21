@@ -1,0 +1,8 @@
+# clangd 补充配置：当 compile_commands 里的 @*.rsp 未被展开时，仍能找到头文件。
+CompileFlags:
+  Add:
+    - -IC:/msys64/ucrt64/include
+    - -ID:/freertos_study/include
+    - -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include
+    - -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW
+    - -DprojCOVERAGE_TEST=0

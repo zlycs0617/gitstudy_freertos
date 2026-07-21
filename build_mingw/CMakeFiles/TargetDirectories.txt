@@ -1,0 +1,11 @@
+D:/freertos_study/build_mingw/CMakeFiles/freertos_study.dir
+D:/freertos_study/build_mingw/CMakeFiles/edit_cache.dir
+D:/freertos_study/build_mingw/CMakeFiles/rebuild_cache.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/CMakeFiles/freertos_kernel.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/CMakeFiles/edit_cache.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/CMakeFiles/rebuild_cache.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/include/CMakeFiles/edit_cache.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/include/CMakeFiles/rebuild_cache.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/portable/CMakeFiles/freertos_kernel_port.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/portable/CMakeFiles/edit_cache.dir
+D:/freertos_study/build_mingw/freertos_kernel_build/portable/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/freertos_study/build_mingw/cmake_install.cmake",
+		"D:/freertos_study/build_mingw/freertos_kernel_build/cmake_install.cmake",
+		"D:/freertos_study/build_mingw/freertos_kernel_build/include/cmake_install.cmake",
+		"D:/freertos_study/build_mingw/freertos_kernel_build/portable/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

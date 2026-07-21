@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "anysphere.cpptools",
+    "llvm-vs-code-extensions.vscode-clangd",
+    "ms-vscode.cmake-tools"
+  ],
+  "unwantedRecommendations": [
+    "marscode.marscode-extension"
+  ]
+}

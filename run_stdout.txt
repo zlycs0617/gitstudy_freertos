@@ -1,0 +1,17 @@
+[0][main] FreeRTOS study demo started.
+[0][start] All Task Created. free_heap=60440
+[3][supervisor] sensor event observed
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8
+[2][sensor] produced seq=1 temperature=26 humidity=51
+[2][control] consumed seq=1 temperature=26 humidity=51
+[4][suspend-worker] running loop=1 tick=372
+[5][delay-relative] loop=1 before vTaskDelay tick=410
+[0][menu] keys: 1 stats/param, 2 sensor/control, 3 supervisor, 4 suspend-worker, 5 delay/sem/queue-set, 6 task-notify, 7 low-power, l low-power on/off, a all on/off, b binary-sem, c count-sem, q queue-set-msg, n notifyGive, w notifyWait-bit, ! assert-test, other-key notify-value, h help
+[0][menu] output mask: [1]=on [2]=on [3]=on [4]=on [5]=on [6]=on [7]=on
+[1][stats] tick=477 queued=0 free_heap=60440
+[1][param] label=param-demo warn_temp=28 humidity_step=5 period_ticks=7000
+[1][task-api-worker] loop=1 self_prio=1 busy=2904972704
+[5][delay-absolute] loop=1 wait-from=501 period=2000
+[3][stack water] Current task stack high water mark: 381
+[3][stack size test] sizeof(StackType_t):8 sizeof(size_t):8 sizeof(void*):8

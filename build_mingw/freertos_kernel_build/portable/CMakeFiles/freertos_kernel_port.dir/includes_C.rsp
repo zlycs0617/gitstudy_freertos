@@ -1,0 +1,1 @@
+-I"D:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW" -I"D:/freertos_study/FreeRTOS-KernelV11.3.0/include/." -isystem D:/freertos_study/include

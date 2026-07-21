@@ -1,0 +1,78 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CMake: configure",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S",
+        ".",
+        "-B",
+        "build_mingw",
+        "-G",
+        "MinGW Makefiles"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "CMake: build debug",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "build_mingw"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$gcc",
+      "dependsOn": "CMake: configure"
+    },
+    {
+      "label": "GCC: build debug",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-I${workspaceFolder}/include",
+        "-I${workspaceFolder}/FreeRTOS-KernelV11.3.0/include",
+        "-I${workspaceFolder}/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW",
+        "${workspaceFolder}/main.c",
+        "${workspaceFolder}/app_assert.c",
+        "${workspaceFolder}/FreeRTOS-KernelV11.3.0/tasks.c",
+        "${workspaceFolder}/FreeRTOS-KernelV11.3.0/queue.c",
+        "${workspaceFolder}/FreeRTOS-KernelV11.3.0/list.c",
+        "${workspaceFolder}/FreeRTOS-KernelV11.3.0/timers.c",
+        "${workspaceFolder}/FreeRTOS-KernelV11.3.0/event_groups.c",
+        "${workspaceFolder}/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW/port.c",
+        "${workspaceFolder}/FreeRTOS-KernelV11.3.0/portable/MemMang/heap_4.c",
+        "-lwinmm",
+        "-o",
+        "${workspaceFolder}/freertos_study_gcc.exe"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "Run FreeRTOS demo",
+      "type": "shell",
+      "command": ".\\build_mingw\\freertos_study.exe",
+      "dependsOn": "CMake: build debug",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run FreeRTOS demo (GCC)",
+      "type": "shell",
+      "command": ".\\freertos_study_gcc.exe",
+      "dependsOn": "GCC: build debug",
+      "problemMatcher": []
+    }
+  ]
+}

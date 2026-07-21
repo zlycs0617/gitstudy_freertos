@@ -1,0 +1,68 @@
+[
+  {
+    "directory": "D:/freertos_study/build_mingw",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles\\freertos_study.dir\\app_assert.c.obj -c D:\\freertos_study\\app_assert.c",
+    "file": "D:/freertos_study/app_assert.c",
+    "output": "CMakeFiles/freertos_study.dir/app_assert.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles\\freertos_study.dir\\main.c.obj -c D:\\freertos_study\\main.c",
+    "file": "D:/freertos_study/main.c",
+    "output": "CMakeFiles/freertos_study.dir/main.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\croutine.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\croutine.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/croutine.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/croutine.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\event_groups.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\event_groups.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/event_groups.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/event_groups.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\list.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\list.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/list.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/list.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\queue.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\queue.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/queue.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/queue.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\stream_buffer.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\stream_buffer.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/stream_buffer.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/stream_buffer.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\tasks.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\tasks.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/tasks.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/tasks.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\timers.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\timers.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/timers.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/timers.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel.dir\\portable\\MemMang\\heap_4.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\portable\\MemMang\\heap_4.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MemMang/heap_4.c",
+    "output": "freertos_kernel_build/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.obj"
+  },
+  {
+    "directory": "D:/freertos_study/build_mingw/freertos_kernel_build/portable",
+    "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -DprojCOVERAGE_TEST=0 -ID:/freertos_study/FreeRTOS-KernelV11.3.0/include -ID:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW -ID:/freertos_study/include -IC:/msys64/ucrt64/include -std=c11 -o CMakeFiles\\freertos_kernel_port.dir\\MSVC-MingW\\port.c.obj -c D:\\freertos_study\\FreeRTOS-KernelV11.3.0\\portable\\MSVC-MingW\\port.c",
+    "file": "D:/freertos_study/FreeRTOS-KernelV11.3.0/portable/MSVC-MingW/port.c",
+    "output": "freertos_kernel_build/portable/CMakeFiles/freertos_kernel_port.dir/MSVC-MingW/port.c.obj"
+  }
+]
